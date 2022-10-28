@@ -1,6 +1,15 @@
 {% extends 'base.html' %}
 <!DOCTYPE html>
 <html>
-<h1>Hello World</h1>
-
+    <head>
+    {% block title %}
+        CappaTech Consulting
+    {% endblock %}
+    </head>   
+    <body>
+        {% block noop %}
+        <h1>Hello world</h1>
+        {% endblock %}
+    </body>
+       
 </html>
