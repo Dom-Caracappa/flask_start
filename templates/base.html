@@ -10,18 +10,43 @@
     {% endblock %}
 </head>
 <body>   
-    
     <div class="container"> 
-      {% include 'top_banner.html' %}
-      {% block content %}{% endblock %}
-      {% block footer %}{% endblock %}
-      
-        
-    
+            <div class="top">
+                    <img class="top_logo" src="static/images/logowtext.png" alt="CappaTech logo">
+                
+            </div>
+            <div class="middle">
+                <div class="middle_bg">
+                    <!-- <img src="static/images/hyperbg.png" alt="CappaTech logo"> -->
+                </div>
+                <div class="middle_blueField">
+                    <div class="rectangle"></div>
+                </div>
+                <div class="middle_textBox">
+                    <div class="centered">
+                        <h1>For organizations setting <br>a new course...</h1>
+                    </div>
+                </div>
+                
+            </div>    
+            <div class="footer">
+                <div class="footer_logo">
+                    <img src="static/images/logo.png" alt="CappaTech logo">
+                </div>
+                <div class="footer_text"> 
+                    <span>CappaTech blah blah blah
+                    </span>
+                </div> 
+                <div class="footer_contact">
+                    <h2>CONTACT US</h2>
+                    <hr>
+                    <span>info@cappa.dev</span>
+                </div>
+            </div>
     </div>
+
    
    
     
-    <!--  -->
 </body>
 </html>
